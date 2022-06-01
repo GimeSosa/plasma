@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500&family=Lobster&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+  a h1 {
+    font-family: 'Lobster';
+    font-size: 3rem;
+    padding: 10px;
+    margin-top: 20px;
+    color: #C19D91; }
+
+.estiloParrafos {
+  font-family: 'Hind Madurai';
+  font-size: 2rem;
+  color: #4B545B;
+  font-weight: 500; }
+
+.nav-link {
+  font-size: 1.8rem; }
+
+.navbar-toggler {
+  background-color: #4B545B; }
+
+.nav-color {
+  color: #4B545B;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 20px;
+  padding: 15px; }
+  .nav-color:hover {
+    color: #C19D91;
+    background-color: #FFBFA5;
+    text-decoration: none;
+    border-radius: 5px; }
+
+@media only screen and (min-width: 576px) {
+  .navbar-toggler {
+    padding: 1.3rem; } }
+
+@media only screen and (min-width: 896px) {
+  a h1 {
+    font-size: 4rem; } }
+
+h5 {
+  font-family: 'Lobster';
+  font-size: 2rem;
+  color: #001a33; }
+
+.div__h3 {
+  padding: 20px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #FFBFA5;
+  background-color: #4B545B; }
+  .div__h3 h3 {
+    line-height: normal; }
+
+.div__detalle {
+  padding: 20px;
+  background-image: url(../img/rostro.jpg);
+  background-size: cover;
+  background-position: center center; }
+  .div__detalle h3 {
+    text-decoration: underline; }
+
+.divMain, .divMain-beneficios, .divMain-yo, .ultParrafo, .section__ul ul, .form-control, footer p {
+  padding: 20px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  color: #001a33;
+  font-size: 1.8rem; }
+
+.titMain {
+  background-color: #C19D91; }
+
+.fondo-color1 {
+  background-color: #C19D91; }
+
+.fondo-color2 {
+  background-color: #FFBFA5; }
+
+.main-h2__fondo {
+  background-color: #4B545B; }
+
+.divMain-beneficios, .divMain-yo {
+  font-family: 'Lobster';
+  color: #FFBFA5; }
+
+.ultParrafo {
+  background-color: white;
+  color: #C19D91;
+  margin-bottom: 0; }
+
+@media only screen and (min-width: 896px) {
+  .divMain-beneficios, .divMain-yo {
+    font-size: 3rem; } }
+
+* {
+  overflow-x: hidden; }
+
+.divMain-beneficios, .divMain-yo {
+  font-size: 2.5rem; }
+
+.formCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn-color {
+  color: #FFBFA5;
+  background-color: #4B545B;
+  padding: 15px;
+  font-size: 1.8rem; }
+  .btn-color:hover {
+    color: #4B545B;
+    background-color: #FFBFA5; }
+
+.section__ul ul {
+  font-size: 3rem;
+  line-height: 35px;
+  color: #001a33;
+  text-shadow: 1px 1px 2px #787878; }
+
+.form-control {
+  padding: 5px; }
+
+.mainContacto {
+  background-image: url(../img/facial55.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.form-check-label {
+  border: red, 2px, solid; }
+
+iframe {
+  padding: 40px; }
+
+@media only screen and (min-width: 576px) {
+  .section__ul ul {
+    font-size: 3rem; } }
+
+#mainFaqs {
+  background-image: url(../img/faqs.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px; }
+  #mainFaqs h3, #mainFaqs p {
+    line-height: 30px;
+    text-shadow: 1px 1px 2px #787878; }
+  #mainFaqs li {
+    text-shadow: 1px 1px 2px #787878; }
+
+i {
+  padding: 20px;
+  font-size: 2rem; }
+
+.divMain-yo {
+  color: #C19D91;
+  font-size: 2rem; }
+
+.imgDoctora {
+  height: 85vh; }
+
+.divMain, .divMain-beneficios, .divMain-yo, .ultParrafo, .section__ul ul, .form-control, footer p {
+  text-align: center; }
+
+#main__yo {
+  background-color: #C19D91;
+  padding: 30px; }
+
+@media only screen and (min-width: 100px) {
+  #main__yo {
+    padding: 60px; } }
+
+footer {
+  background-color: #C19D91;
+  color: #001a33;
+  padding: 20px; }
+  footer p {
+    /*line-height: 20px;*/
+    text-align: center;
+    padding: 0; }
+  footer a {
+    padding: 20px; }
+    footer a img {
+      width: 3rem; }
+  footer h2 {
+    text-decoration: underline;
+    line-height: 0px; }
+
+.iconosCentro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; }

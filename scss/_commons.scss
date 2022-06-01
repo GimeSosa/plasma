@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500&family=Lobster&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+	overflow-x: hidden;
+
+
+}
+
+$size:(
+	size1: 1rem,
+	size2: 1.3rem,
+	size3:1.5rem,
+	size4: 1.8rem,
+	size5:2rem,
+	size5-5: 2.5rem,
+	size6:3rem,
+	size7: 4rem,
+	size8: 6rem,
+	siz9:8rem,
+)
+;
+
+$colors:(
+	color1: #FFBFA5,
+	color2: #C19D91,
+	color3: #4B545B,
+	color4: #E1A38E,
+	color5: #F9AE8E,
+	color6: #001a33,
+)
+;
+
+
+a{
+	text-decoration: none;
+
+h1{
+  font-family: 'Lobster';
+  font-size: map-get($size, size6);
+  padding:10px;
+  margin-top: 20px;
+  color: map-get($colors, color2);
+  }
+
+}
+
+.estiloParrafos{
+	font-family: 'Hind Madurai';
+	font-size: map-get($size, size5);
+  color: map-get($colors, color3);
+  font-weight: 500;
+	
+	}

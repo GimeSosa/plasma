@@ -1,0 +1,45 @@
+
+.fondo-color1{
+	background-color: map-get($colors, color2);
+}
+
+
+
+.fondo-color2{
+	background-color:map-get($colors, color1);
+}
+
+.main-h2__fondo{
+	background-color:map-get($colors, color3);
+}
+
+
+.divMain-beneficios{
+	@extend .divMain;
+	font-family:  'Lobster';
+	color: map-get($colors, color1);
+
+}
+
+.ultParrafo{
+	@extend .divMain;
+	background-color:white;
+	color: map-get($colors, color2);
+
+	margin-bottom: 0;
+}
+
+// breakpoints
+
+@media only screen and (min-width: 896px){
+
+
+.divMain-beneficios{
+			font-size:  map-get($size, size6);
+
+}
+
+
+
+
+}

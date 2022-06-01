@@ -1,0 +1,43 @@
+h5{
+  font-family: 'Lobster';
+  font-size: map-get($size, size5);
+  color: map-get($colors, color6);
+}
+
+
+.div__h3{
+  padding:20px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  font-size: map-get($size, size4); 
+  color: map-get($colors, color1);
+  background-color: map-get($colors, color3);
+  h3{
+    line-height: normal;
+  }
+}
+
+.div__detalle {
+
+   padding:20px;
+  background-image:url(../img/rostro.jpg);
+ background-size: cover;
+background-position: center center;
+h3{
+  text-decoration: underline;
+}
+}
+
+
+.divMain{
+  padding:20px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;  
+  color: map-get($colors, color6);
+  font-size: map-get($size, size4); 
+}
+
+.titMain{
+  background-color: map-get($colors, color2);
+}
+

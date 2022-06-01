@@ -1,0 +1,68 @@
+*{
+    overflow-x: hidden;
+}
+
+
+.divMain-beneficios{
+font-size: map-get($size, size5-5);
+}
+
+
+.formCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-color{
+    color:map-get($colors, color1);
+    background-color: map-get($colors, color3);
+    padding:15px;
+    font-size: map-get($size, size4);
+    &:hover{
+        color: map-get($colors, color3);
+        background-color:map-get($colors, color1);
+    }
+}
+
+
+
+.section__ul ul {
+@extend .divMain;
+ font-size: map-get($size, size6);
+ line-height: 35px;
+ color:map-get($colors, color6);
+ text-shadow:  1px 1px 2px rgb(120, 120, 120);
+  }
+
+.form-control{
+	@extend .divMain;
+	padding: 5px;
+ 
+}
+
+
+.mainContacto{
+    background-image: url(../img/facial55.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.form-check-label{
+    border: red, 2px, solid;
+}
+
+iframe{
+    padding:40px;
+}
+
+// breakpoints
+
+
+@media only screen and (min-width: 576px){
+.section__ul ul {
+ font-size: map-get($size, size6);
+}
+
+}
