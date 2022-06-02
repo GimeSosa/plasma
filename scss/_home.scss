@@ -15,6 +15,7 @@ h5{
   h3{
     line-height: normal;
   }
+
 }
 
 .div__detalle {
@@ -25,6 +26,11 @@ h5{
 background-position: center center;
 h3{
   text-decoration: underline;
+  text-shadow:  1px 1px 2px rgb(120, 120, 120);
+}
+p{
+   text-shadow:  1px 1px 2px rgb(120, 120, 120);
+
 }
 }
 
@@ -35,8 +41,10 @@ h3{
   font-weight: 500;  
   color: map-get($colors, color6);
   font-size: map-get($size, size4); 
-}
 
+  }
+
+ 
 .titMain{
   background-color: map-get($colors, color2);
 }
